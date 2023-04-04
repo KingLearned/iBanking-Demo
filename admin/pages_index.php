@@ -39,8 +39,8 @@ while ($auth = $res->fetch_object()) {
         <p><?php echo $auth->sys_name; ?></p>
       </div>
       <!-- /.login-logo -->
-      <div class="">
-        <div class=" form-container card-body login-card-body">
+      <div class="card">
+        <div class="card-body login-card-body">
           <p class="login-box-msg">Log In To Start Adminstrator Session</p>
 
           <form method="post">
@@ -74,8 +74,7 @@ while ($auth = $res->fetch_object()) {
     <!-- /.login-box -->
     <style>
       .login-box{
-        width: 500px;
-        height: 400px;
+        width: 50vw;
       }
     </style>
 
