@@ -63,15 +63,12 @@ while ($auth = $res->fetch_object()) {
             <div class="row">
               <div class="col-4">
                 <div class="icheck-primary">
-                  <!-- <input type="checkbox" id="remember">
-                  <label for="remember">
-                    Remember Me
-                  </label> -->
+
                 </div>
               </div>
               <!-- /.col -->
               <div class="col-8">
-                <button type="submit" name="login" class="btn btn-danger btn-block">Log In as Admin</button>
+                <button type="submit" name="login" class="btn btn-danger btn-block">LogIn</button>
               </div>
               <!-- /.col -->
             </div>
