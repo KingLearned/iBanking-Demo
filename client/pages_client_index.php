@@ -72,14 +72,6 @@ while ($auth = $res->fetch_object()) {
             </div>
           </form>
 
-
-          <!-- /.social-auth-links -->
-
-          <!-- <p class="mb-1">
-            <a href="pages_reset_pwd.php">I forgot my password</a>
-          </p> -->
-
-
           <p class="mb-0">
             <a href="pages_client_signup.php" class="text-center">Register a new account</a>
           </p><!-- Log on to codeastro.com for more projects! -->
