@@ -74,8 +74,8 @@ while ($auth = $res->fetch_object()) {
     <!-- /.login-box -->
     <style>
       .form-container{
-
-        background: red !important;
+        width: 500px;
+        height: 500px ;
       }
     </style>
 
