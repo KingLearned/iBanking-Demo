@@ -39,7 +39,7 @@ while ($auth = $res->fetch_object()) {
         <p><?php echo $auth->sys_name; ?></p>
       </div>
       <!-- /.login-logo -->
-      <div class="card">
+      <div class="col-12">
         <div class="card-body login-card-body">
           <p class="login-box-msg">Log In To Start Adminstrator Session</p>
 
@@ -60,35 +60,15 @@ while ($auth = $res->fetch_object()) {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-4">
-                <div class="icheck-primary">
 
-                </div>
-              </div>
-              <!-- /.col -->
-              <div class="col-8">
+            <div class="row">
+              <div class="col-12">
                 <button type="submit" name="login" class="btn btn-danger btn-block">LogIn</button>
               </div>
-              <!-- /.col -->
             </div>
           </form>
-
-
-          <!-- /.social-auth-links -->
-
-          <!-- <p class="mb-1">
-            <a href="pages_reset_pwd.php">I forgot my password</a>
-          </p> -->
-          <!--
-          Uncomment this line to allow account creations for admins
           
-      <p class="mb-0">
-        <a href="pages_signup.php" class="text-center">Register a new membership</a>
-      </p>
-      -->
         </div>
-        <!-- /.login-card-body -->
       </div>
     </div>
     <!-- /.login-box -->
