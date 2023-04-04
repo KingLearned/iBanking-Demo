@@ -72,6 +72,7 @@ while ($auth = $res->fetch_object()) {
             </div>
           </form>
 
+          <!-- Register New Account with Us -->
           <p class="mb-0">
             <a href="pages_client_signup.php" class="text-center">Register a new account</a>
           </p><!-- Log on to codeastro.com for more projects! -->
