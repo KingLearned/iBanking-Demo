@@ -75,23 +75,18 @@ while ($auth = $res->fetch_object()) {
           <!-- Register New Account with Us -->
           <p class="mb-0">
             <a href="pages_client_signup.php" class="text-center">Register a new account</a>
-          </p><!-- Log on to codeastro.com for more projects! -->
+          </p>
 
         </div>
-        <!-- /.login-card-body -->
       </div>
     </div>
-    <!-- /.login-box -->
-
     <!-- jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
     <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
-
   </body>
-
   </html>
 <?php
 } ?>
