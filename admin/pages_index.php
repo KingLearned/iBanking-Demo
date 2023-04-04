@@ -72,11 +72,6 @@ while ($auth = $res->fetch_object()) {
       </div>
     </div>
     <!-- /.login-box -->
-    <style>
-      .login-box{
-        width: 50vw;
-      }
-    </style>
 
     <!-- jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
