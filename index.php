@@ -19,7 +19,6 @@ while ($sys = $res->fetch_object()) {
         <title><?php echo $sys->sys_name; ?> - <?php echo $sys->sys_tagline; ?></title>
         <link href="dist/css/robust.css" rel="stylesheet">
     </head>
-
     <body>
 
         <nav class="navbar navbar-lg navbar-expand-lg navbar-transparant navbar-dark navbar-absolute w-100">
