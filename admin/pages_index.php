@@ -75,7 +75,6 @@ while ($auth = $res->fetch_object()) {
     <style>
       .form-container{
         width: 500px;
-        height: 500px ;
       }
     </style>
 
