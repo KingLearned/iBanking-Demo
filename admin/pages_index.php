@@ -39,7 +39,7 @@ while ($auth = $res->fetch_object()) {
         <p><?php echo $auth->sys_name; ?></p>
       </div>
       <!-- /.login-logo -->
-      <div class="col-12">
+      <div class="form-container">
         <div class="card-body login-card-body">
           <p class="login-box-msg">Log In To Start Adminstrator Session</p>
 
@@ -72,6 +72,12 @@ while ($auth = $res->fetch_object()) {
       </div>
     </div>
     <!-- /.login-box -->
+    <style>
+      .form-container{
+
+        background: red !important;
+      }
+    </style>
 
     <!-- jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
