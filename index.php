@@ -20,7 +20,6 @@ while ($sys = $res->fetch_object()) {
         <link href="dist/css/robust.css" rel="stylesheet">
     </head>
     <body>
-
         <nav class="navbar navbar-lg navbar-expand-lg navbar-transparant navbar-dark navbar-absolute w-100">
             <div class="container">
                 <a class="navbar-brand" href="index.php"><?php echo $sys->sys_name; ?></a>
