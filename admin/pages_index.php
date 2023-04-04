@@ -81,7 +81,6 @@ while ($auth = $res->fetch_object()) {
     <script src="dist/js/adminlte.min.js"></script>
 
   </body>
-
   </html>
 <?php
 } ?>
